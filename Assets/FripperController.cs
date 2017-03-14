@@ -42,6 +42,13 @@ public class FripperController : MonoBehaviour
         {
           
             SetAngle(this.defaultAngle);
+
+            //
+            for(int i = 0; i < Inoput.touches.Length; i++)
+            {
+                //配列の中のi番目のタッチ情報を取り出している
+                Touch touch = Input.touches[i];
+            }
         }
     }
     //
